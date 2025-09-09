@@ -7,6 +7,7 @@
   packages = [
     pkgs.python313
     pkgs.gnumake
+    
   ];
   # Sets environment variables in the workspace
   env = {};
@@ -15,6 +16,7 @@
     extensions = [
       "ms-python.python"
       "ms-python.debugpy"
+      "ms-toolsai.jupyter"
     ];
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
